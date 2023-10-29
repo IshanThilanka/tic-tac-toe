@@ -1,0 +1,38 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.game-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Minimum full viewport height */
+  background: url('your-background-image.jpg') center/cover no-repeat;
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+   height: 80px;
+  margin-right: -1px;
+  margin-top: -1px;
+    text-align: center;
+  width: 80px;
+}
+
+
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+.status{
+  font-size: 35px;
+  font-weight: bold;
+}
